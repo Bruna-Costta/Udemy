@@ -1,0 +1,121 @@
+/* Limpando formatações padrão */
+/* Obs: Asteristico quer dizer tudo*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* Layout */
+#cabecalho{
+    background-color: #ffd500;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Pode ser aplicada a mesma formatação para ids diferentes apenas colocando a virgula */
+#logo, #menu{
+    padding: 10px;
+}
+
+#principal{
+    width: 920px;         /* Largura*/
+    /* margin: 0 10;          0 para superior e inferior e 10 para laterais*/
+    margin: 0 auto;       /* auto centraliza a margin*/
+    padding: 15px;
+}
+
+
+#postagens{
+    width: 660px;
+    float: left;         /* float movimenta o elemento para cima*/ 
+}
+
+#menu-lateral{
+    width: 240px;
+    float: right;        /* movimenta para direita */
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#rodape{
+    clear: both; /* remove o fluxo dos elementos flutuantes*/
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
+
+
+/* Formatação do menu */
+a{
+    text-decoration: none;
+}
+
+a:link,  a:visited{
+    color: #f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#cabecalho a:link, #cabecalho a:visited{
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#cabecalho a:hover{
+    color: #f7b600;
+    background: #FFF;
+    text-decoration: none;
+}
+
+/* Formatações em geral */
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+
+.branco{
+    color: white;
+}
+
+.data{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+

@@ -1,0 +1,42 @@
+body{
+    font: 16px Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#principal{
+    width: 1340px;
+    text-align: center;
+}
+
+#menu{
+    background: #bc00dd3c;
+    padding: 18px;
+}
+
+a{
+    color: #f94144;
+    text-decoration: none;
+    font-weight: bold; 
+    padding: 5px;
+}
+
+.texto{
+    color: #f94144;
+}
+
+.rodape{
+    color: #d00000;
+    text-align: center;
+}
+
+p{
+    color: #d00000;
+}
+.imgs{
+    border: 10px solid #f94144;
+}
+
+.contato{
+    color: #ff006e;
+}
+

@@ -1,0 +1,79 @@
+.conteudo{
+    border: 1px solid violet;
+    padding: 20px;
+    width: 150px;
+}
+
+
+.noticia{
+    background: #48cae4;
+    border: 5px solid pink;
+    padding: 10px;
+}
+
+/*h2 já vem com margem e para harmonizar incluir (margin: 0px)*/
+
+h2{
+    border: 1px solid #03045e;
+    margin: 0px;
+}
+
+.elemento{
+    background: violet;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+}
+
+.elemento1{
+    background: violet;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+.teste{
+    background: #e56b6f;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+}
+
+.teste2{
+    background: #eaac8b;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.caixa{
+    background: #00afb9;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+.principal{
+    border: 5px solid red;
+    background:  #95d5b2;
+}
+
+.elemento2{
+    background: violet;
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    float: right;
+}
+
+
+

@@ -1,0 +1,67 @@
+body{
+    font-family: 'Times New Roman', Times, serif; /* Defini font */
+    background: #f2f2f2; 
+}
+
+#container{
+    width: 90%;                                /* largura */
+    margin: 0 auto;                              /* centralização */
+    background: #fff;
+}
+
+p{
+    text-align: justify;
+}
+
+#marca{
+    height: 100px;                               /* Altura */
+    background: #9e9e9e;
+    text-align: center;                          /* centralizando palavra */
+    line-height: 100px;                          /* centralizando no meio */
+}
+
+#conteudo{
+    width: 75%;                               /* Largura */
+    float: right;                              /* flutuando a direita */
+}
+
+#principal{
+    width: 63%;
+    float: left;
+}
+
+#secundario{
+    width: 34%;
+    float: right;
+    background: #d1d1d1;
+}
+
+#secundario h1,
+#secundario h2,
+#secundario h3,
+#secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao{
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#navegacao ul{
+    list-style: none;
+}
+
+#navegacao li a{
+    text-decoration: none;
+}
+
+#rodape{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}

@@ -1,0 +1,79 @@
+#home{
+    padding: 8px;
+    background: black;
+    color: white;
+}
+
+#formulario{
+    width: 400px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+#email{
+    padding-bottom: 10px;
+}
+
+#senha{
+    padding-bottom: 18px;
+}
+
+#botao{
+    width: 400px;
+}
+
+#botao-abertura{
+    text-align: center;
+}
+
+#botao-abertura-v{
+    width: 200px;
+    background: #90e0ef;
+    border: none;
+}
+
+#botao-abertura-a{
+    width: 200px;
+    background: #90e0ef;
+    border: none;
+}
+
+#botao-consulta{
+    background: #90e0ef;
+    border: none;
+    width: 200px;
+}
+
+#menu-home{
+    padding-top: 20px;
+}
+
+#abrir-chamado{
+    padding-top: 60px;
+}
+
+#consultarChamado{
+    padding-top: 50px;
+}
+
+#link-sair{
+    color: #f0efeb;
+    font-size: 20px;
+}
+
+.texto-home{
+    font-size: 22px;
+}
+
+.botao{
+    text-align: center;
+}
+
+.texto .texto-login{
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+

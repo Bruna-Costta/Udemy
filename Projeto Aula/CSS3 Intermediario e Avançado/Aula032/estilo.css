@@ -1,0 +1,103 @@
+body{
+    font-family: 'Times New Roman', Times, serif; /* Defini font */
+    background: #f2f2f2; 
+}
+
+#container{
+    width: 960px;                                /* largura */
+    margin: 0 auto;                              /* centralização */
+    background: #fff url(img/coluna.png) repeat-y left top;
+    min-width: 720px;
+    max-width: 1280px;
+}
+
+p{
+    text-align: justify;
+}
+
+#marca{
+    width: 100%;
+    height: 200px;                               /* Altura */
+    background: black url(img/tec.jpg) no-repeat center;
+    text-align: center;                          /* centralizando palavra */
+    line-height: 200px;                          /* centralizando no meio */
+}
+
+#conteudo{
+    width: 75%;                               /* Largura */
+    float: right;
+}
+
+#principal{
+    width: 63%;
+    float: left;
+}
+
+#secundario{
+    width: 34%;
+    float: right;
+    background: #e9ecef;
+}
+
+#secundario h1,
+#secundario h2,
+#secundario h3,
+#secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao{
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#navegacao ul{
+    list-style: none;
+}
+
+#navegacao li a{
+    text-decoration: none;
+}
+
+img.img-noticia{
+    width: 94%;
+    padding: 2%;
+    max-width: 600px;
+}
+
+#rodape{
+    clear: both;
+    background: #e9ecef;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Navegação */
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a{
+    /*border: 1px solid red;*/
+    width: 200px;
+    color: #023047;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 40px;
+    background: #e9ecef no-repeat left bottom;
+    display: block;
+}
+
+a:hover{
+    background-position: right bottom;
+    color: #fff;
+    background-color: #44cade;
+}
